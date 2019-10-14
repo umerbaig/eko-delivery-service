@@ -1,0 +1,51 @@
+.app__header {
+  background-color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 1px;
+  color: #000000;
+}
+
+.app__header button {
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  color: #000000;
+  font-size: 20px;
+  padding: 20px 20px;
+  background: transparent;
+}
+
+.app__header button.app__header--active {
+  border-bottom: 1px solid #29cb72;
+}
+
+.app__content {
+  padding: 20px;
+  display: flex;
+}
+
+.app__tab-content {
+  flex: 1;
+  padding: 50px 20px 30px 0;
+}
+
+.app__tab-content > div {
+  min-height: calc(100vh - 200px);
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.app__routes-tree {
+  flex: 2;
+}
+
+.app__routes-tree #tree-routes-graph-wrapper {
+  width: 100%;
+  margin-top: 20px;
+  min-height: 80vh;
+  border-radius: 10px;
+  background-color: white;
+}

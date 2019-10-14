@@ -1,0 +1,46 @@
+.tab__content .form-group {
+  margin-bottom: 20px;
+}
+
+.tab__content .form-group label {
+  font-size: 17px;
+  margin-right: 10px;
+  width: 120px;
+  display: inline-block;
+}
+
+.tab__content form {
+  padding: 20px 0;
+}
+
+.tab__content form .error-message {
+  color: red;
+  font-size: 10px;
+  margin-left: 130px;
+  margin-top: 5px;
+}
+
+.tab__content .form-btn-wrapper {
+  margin-left: 130px;
+}
+
+.tab__content .routes-list {
+  list-style: none;
+  margin: 0;
+  margin-left: 10px;
+  margin-top: 10px
+}
+
+.tab__content .routes-list li {
+  padding: 5px 0;
+}
+
+.tab__content .routes-list span {
+  padding: 5px;
+  margin-left: 25px;
+  font-size: 11px;
+  text-transform: uppercase;
+  background: #37474f;
+  color: white;
+  border-radius: 5px;
+}

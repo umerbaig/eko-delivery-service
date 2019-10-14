@@ -1,0 +1,11 @@
+.form__input {
+  padding: 10px;
+  font-size: 15px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  outline: none;
+  border-radius: 5px;
+}
+
+.form__input:focus {
+  border: 1px solid #29cb72;
+}
